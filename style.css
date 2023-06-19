@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Zelda;
+    src: url(./The\ Wild\ Breath\ of\ Zelda.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    background-image: url("./ArtStation\ -\ Explore.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+#left .bg{
+    /* background-color: rgba(0, 0, 0, 0.327); */
+    display: flex;
+    color: #707070;
+    margin-bottom: 200px;
+    font-size: 100px;
+    font-family: Zelda;
+}
+#right{
+    background-color: #FAFAFA;
+}
+.upper{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 90%;
+}
+#frm{
+    height: 550px;
+}
+.formContainer{
+    background-color: #FFF;
+    padding: 2rem 2rem;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.formContainer p{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+fieldset{
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+.formcell{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
+.formcell label {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+.but{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+button{
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
